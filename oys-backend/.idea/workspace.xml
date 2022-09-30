@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d0c05e69-ad1b-4c93-9699-887f3f1e1fba" name="Changes" comment="added chatroom feature">
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/OysBackendApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/OysBackendApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/WebSocketConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/messaging/configuration/WebSocketConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/announcement/controller/AnnouncementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/announcement/controller/AnnouncementController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/announcement/controller/AnnouncementRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/announcement/entity/dto/AnnouncementRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/announcement/controller/AnnouncementResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/announcement/entity/dto/AnnouncementResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/announcement/service/AnnouncementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/announcement/service/AnnouncementService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assignment/controller/EvaluationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assignment/entity/exam/dto/EvaluationRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assignment/controller/ExamController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assignment/controller/ExamController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assignment/controller/ExamGradeResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assignment/entity/exam/dto/ExamGradeResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assignment/controller/ExamRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assignment/entity/exam/dto/ExamRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assignment/controller/ExamResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assignment/entity/exam/dto/ExamResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assignment/controller/HomeworkController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assignment/controller/HomeworkController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assignment/controller/HomeworkRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assignment/entity/homework/dto/HomeworkRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assignment/controller/HomeworkResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assignment/entity/homework/dto/HomeworkResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assignment/controller/SubmissionGradeResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assignment/entity/homework/dto/SubmissionGradeResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assignment/controller/SubmissionRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assignment/entity/homework/dto/SubmissionRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assignment/controller/SubmissionResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assignment/entity/homework/dto/SubmissionResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assignment/entity/Exam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assignment/entity/exam/Exam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assignment/entity/ExamGrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assignment/entity/exam/ExamGrade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assignment/entity/Homework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assignment/entity/homework/Homework.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assignment/entity/Submission.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assignment/entity/homework/Submission.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assignment/repository/ExamGradeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assignment/repository/ExamGradeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assignment/repository/ExamRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assignment/repository/ExamRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assignment/repository/HomeworkRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assignment/repository/HomeworkRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assignment/repository/SubmissionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assignment/repository/SubmissionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assignment/service/ExamService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assignment/service/ExamService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assignment/service/HomeworkService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assignment/service/HomeworkService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assistant/controller/AssistantController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assistant/controller/AssistantController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assistant/controller/AssistantResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assistant/entity/dto/AssistantResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assistant/controller/AssistantScheduleRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assistant/entity/dto/AssistantScheduleRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assistant/controller/AssistantScheduleResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assistant/entity/dto/AssistantScheduleResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assistant/entity/Assistant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assistant/entity/Assistant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assistant/repository/AssistantRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assistant/repository/AssistantRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assistant/service/AssistantService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/assistant/service/AssistantService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/course/controller/AddCourseRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/course/entity/dto/AddCourseRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/course/controller/AnnouncementRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/course/entity/dto/AnnouncementRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/course/controller/CourseAnnouncementResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/course/entity/dto/CourseAnnouncementResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/course/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/course/controller/CourseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/course/controller/CourseHourResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/course/entity/dto/CourseHourResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/course/controller/CourseResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/course/entity/dto/CourseResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/course/controller/CourseStudentsResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/course/entity/dto/CourseStudentsResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/course/controller/DetailedCourseResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/course/entity/dto/DetailedCourseResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/course/controller/DetailedUpdateRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/course/entity/dto/DetailedUpdateRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/course/controller/UpdateCourseRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/course/entity/dto/UpdateCourseRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/course/entity/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/course/entity/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/course/service/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/course/service/CourseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/lecturer/controller/LecturerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/lecturer/controller/LecturerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/lecturer/controller/LecturerScheduleRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/lecturer/entity/dto/LecturerScheduleRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/lecturer/controller/LecturerScheduleResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/lecturer/entity/dto/LecturerScheduleResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/lecturer/repository/LecturerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/lecturer/repository/LecturerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/lecturer/service/LecturerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/lecturer/service/LecturerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/login/controller/ChangePasswordRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/login/entity/dto/ChangePasswordRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/login/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/login/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/login/controller/LoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/login/entity/dto/LoginRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/login/controller/NewStudentRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/login/entity/dto/NewStudentRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/login/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/login/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/login/service/CustomUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/login/service/CustomUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/login/service/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/login/service/LoginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/messaging/controller/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/messaging/controller/MessageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/messaging/controller/OutputMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/messaging/entity/dto/OutputMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/messaging/controller/TextMessageRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/messaging/entity/dto/TextMessageRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/messaging/service/MessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/messaging/service/MessageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/room/controller/RoomController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/room/controller/RoomController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/room/controller/RoomRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/room/entity/dto/RoomRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/room/entity/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/room/entity/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/room/service/RoomService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/room/service/RoomService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/student/controller/DateResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/student/entity/dto/DateResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/student/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/student/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/student/controller/StudentScheduleRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/student/entity/dto/StudentScheduleRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/student/controller/StudentScheduleResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/student/entity/dto/StudentScheduleResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/student/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/student/entity/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/student/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/student/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/user/controller/UserProfileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/user/controller/UserProfileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/user/controller/UserProfileRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/user/entity/dto/UserProfileRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/user/controller/UserProfileResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/user/entity/dto/UserProfileResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/user/entity/UserProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/user/entity/UserProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/user/service/UserProfileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yte/intern/oysbackend/user/service/UserProfileService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Record" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="2EB9FogD5DoiKAC683o6GbYhl5s" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Project.color": "314a38",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/er_de/Desktop/oys-frontend-new",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="yte.intern.oysbackend.student.entity" />
+      <recent name="yte.intern.oysbackend.course.controller" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="OysBackendApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="yte.intern.oysbackend.OysBackendApplication" />
+      <module name="oys-backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="yte.intern.oysbackend.messaging.configuration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.OysBackendApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d0c05e69-ad1b-4c93-9699-887f3f1e1fba" name="Changes" comment="" />
+      <created>1662058013372</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662058013372</updated>
+    </task>
+    <task id="LOCAL-00001" summary="added course controller functions">
+      <created>1662496661001</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662496661002</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added course controller functions">
+      <created>1662565003997</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662565003997</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added new controller classes">
+      <created>1662641837479</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662641837479</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added login and message responses">
+      <created>1662669589905</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662669589905</updated>
+    </task>
+    <task id="LOCAL-00005" summary="users page search integration">
+      <created>1662913465977</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662913465977</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add new course integration">
+      <created>1662928778354</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662928778354</updated>
+    </task>
+    <task id="LOCAL-00007" summary="attend course integration, course page">
+      <created>1662990608442</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662990608442</updated>
+    </task>
+    <task id="LOCAL-00008" summary="course page integration">
+      <created>1663066649189</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1663066649189</updated>
+    </task>
+    <task id="LOCAL-00009" summary="continued course page integration">
+      <created>1663104634316</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1663104634316</updated>
+    </task>
+    <task id="LOCAL-00010" summary="finished course page integration">
+      <created>1663189835635</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1663189835635</updated>
+    </task>
+    <task id="LOCAL-00011" summary="ux integrations">
+      <created>1663269920673</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1663269920673</updated>
+    </task>
+    <task id="LOCAL-00012" summary="bug fixes">
+      <created>1663745992840</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1663745992840</updated>
+    </task>
+    <task id="LOCAL-00013" summary="added profile details and announcements">
+      <created>1664175461964</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1664175461964</updated>
+    </task>
+    <task id="LOCAL-00014" summary="added chatroom feature">
+      <created>1664465600260</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1664465600260</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added course controller functions" />
+    <MESSAGE value="added new controller classes" />
+    <MESSAGE value="added login and message responses" />
+    <MESSAGE value="users page search integration" />
+    <MESSAGE value="add new course integration" />
+    <MESSAGE value="attend course integration, course page" />
+    <MESSAGE value="course page integration" />
+    <MESSAGE value="continued course page integration" />
+    <MESSAGE value="finished course page integration" />
+    <MESSAGE value="ux integrations" />
+    <MESSAGE value="bug fixes" />
+    <MESSAGE value="added profile details and announcements" />
+    <MESSAGE value="added chatroom feature" />
+    <option name="LAST_COMMIT_MESSAGE" value="added chatroom feature" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.hibernate.cfg.RecoverableException" package="org.hibernate.cfg" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
